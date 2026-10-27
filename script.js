@@ -5,7 +5,7 @@
 const questions = [
     {
         question: "1. Which company created Minecraft?",
-        answers: ["Epic Games", "Mojang", "Nintendo", "Valve"],
+        answers: ["Epic Games", "Mojang", "Nintendo", "Dougies getaways"],
         correct: 1
     },
     {
@@ -14,20 +14,20 @@ const questions = [
             "Score touchdowns",
             "Build a city",
             "Be the last player standing",
-            "Solve math problems"
+            "eat chocolate chip pancakes"
         ],
         correct: 2
     },
     {
         question: "3. Which game features the character Master Chief?",
-        answers: ["Halo", "Overwatch", "Valorant", "Apex Legends"],
+        answers: ["Halo", "Overwatch", "pokemeon", "Apex Legends"],
         correct: 0
     },
     {
         question: "4. What type of game is Rocket League?",
         answers: [
             "Racing only",
-            "Football with cars",
+            "Football/soccer with cars",
             "A farming simulator",
             "A fighting game"
         ],
@@ -49,14 +49,14 @@ const questions = [
         correct: 0
     },
     {
-        question: "7. Which game series features the character Link?",
+        question: "7. which game has  78 playable operators?",
         answers: [
-            "Super Mario",
-            "The Legend of Zelda",
-            "Pokémon",
-            "Sonic the Hedgehog"
+            "Apex Legends",
+            "Fortnite",
+            "Call of Duty",
+            "Rainbow Six Siege"
         ],
-        correct: 1
+        correct: 3
     },
     {
         question: "8. What does FPS usually stand for in gaming?",
@@ -64,7 +64,7 @@ const questions = [
             "Fast Player System",
             "First Person Shooter",
             "Final Play Session",
-            "Free Power Setting"
+            "Free playdough sale "
         ],
         correct: 1
     }
