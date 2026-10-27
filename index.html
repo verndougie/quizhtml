@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gaming Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Project: Interactive Quiz Builder Mini-Project #06 -->
+
+    <header class="site-header">
+        <p class="eyebrow">OCVTS COMPUTER SCIENCE</p>
+        <h1>Gaming <span>QUIZ</span></h1>
+        <p class="subtitle">Test your video game knowledge.</p>
+    </header>
+
+    <main class="quiz-container">
+        <section class="quiz-info">
+            <div>
+                <p class="small-label">YOUR CHALLENGE</p>
+                <h2>Gaming Knowledge</h2>
+            </div>
+            <div class="question-count" id="questionCount">0 / 8 answered</div>
+        </section>
+
+        <section class="progress-section" aria-label="Quiz progress">
+            <div class="progress-track">
+                <div id="progressBar" class="progress-bar"></div>
+            </div>
+            <p id="progressText">Let's get started!</p>
+        </section>
+
+        <form id="quizForm">
+            <div id="questionsContainer">
+                <!-- JavaScript adds the questions here. -->
+            </div>
+
+            <div class="button-row">
+                <button type="submit" id="submitButton" class="primary-button">
+                    Submit Quiz
+                </button>
+
+                <button type="button" id="restartButton" class="secondary-button">
+                    Restart Quiz
+                </button>
+            </div>
+        </form>
+
+        <section id="results" class="results hidden"
+                 aria-live="polite" tabindex="-1">
+            <p class="small-label">QUIZ COMPLETE</p>
+            <h2>Your Final Score</h2>
+            <p id="scoreText" class="score">0 / 8</p>
+            <p id="percentageText" class="percentage">0%</p>
+            <p id="feedbackText" class="feedback"></p>
+            <p id="resultSummary"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with HTML, CSS, and JavaScript.</p>
+        <p>quiz builder  · Mini-Project #06</p>
+    </footer>
+</body>
+</html>
