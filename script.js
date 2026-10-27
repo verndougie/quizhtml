@@ -9,14 +9,14 @@ const questions = [
         correct: 1
     },
     {
-        question: "2. What is the main goal in Fortnite Battle Royale?",
+        question: "2. In Skyrim's Dragonborn DLC, what is the name of the final quest where you confront Miraak?",
         answers: [
-            "Score touchdowns",
-            "Build a city",
-            "Be the last player standing",
-            "eat chocolate chip pancakes"
+            "The Temple of Miraak",
+            "At the Summit of Apocrypha",
+            "The Fate of the World",
+            "The Last Dragonborn"
         ],
-        correct: 2
+        correct: 1
     },
     {
         question: "3. Which game features the character Master Chief?",
@@ -49,7 +49,7 @@ const questions = [
         correct: 0
     },
     {
-        question: "7. which game has  78 playable operators?",
+        question: "7. which game has 78 playable operators?",
         answers: [
             "Apex Legends",
             "Fortnite",
